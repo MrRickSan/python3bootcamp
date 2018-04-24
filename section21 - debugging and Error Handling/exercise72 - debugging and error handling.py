@@ -12,12 +12,10 @@
 def divide(num1, num2):
     try:
         return num1/num2
-    except TypeError as err:
+    except TypeError:
         return "Please provide two integers or floats"
-        print(err)
-    except ZeroDivisionError as err:
+    except ZeroDivisionError:
         return "Please do not divide by zero"
-        print(err)
 
 
 print(divide(1,0))
