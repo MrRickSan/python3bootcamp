@@ -5,7 +5,7 @@ with open("haiku.txt", "w") as file:
     file.write("Let's go check it out")
 
 # a - appends to end, preserving original contents
-NO CONTROL OVER CURSOR
+# NO CONTROL OVER CURSOR
 with open("haiku.txt", "a") as file:
     file.seek(0)
     file.write(":)\n")
